@@ -18,7 +18,7 @@
     "cookie-parser": "^1.4.1",
     "express-handlebars": "*",
     "express-session": "*"
-  }
+  },
   "bugs": {
     "url": "https://github.com/hermannkrohn3/QuickCast/issues"
   },
