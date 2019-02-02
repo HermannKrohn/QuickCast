@@ -4,6 +4,7 @@ const customTxt = document.getElementById("custom-text");
 
 customBtn.addEventListener("click",function(){
   realFileBtn.click();
+  console.log('CLICK');
 });
 
 realFileBtn.addEventListener("change",function(){
