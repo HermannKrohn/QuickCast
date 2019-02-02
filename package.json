@@ -1,0 +1,26 @@
+{
+  "name": "quickcast",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hermannkrohn3/QuickCast.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "*",
+    "express": "*",
+    "cookie-parser": "^1.4.1",
+    "express-handlebars": "*",
+    "express-session": "*"
+  }
+  "bugs": {
+    "url": "https://github.com/hermannkrohn3/QuickCast/issues"
+  },
+  "homepage": "https://github.com/hermannkrohn3/QuickCast#readme"
+}
