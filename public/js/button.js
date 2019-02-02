@@ -1,6 +1,7 @@
 const realFileBtn = document.getElementById("real-file");
 const customBtn = document.getElementById("custom-button");
 const customTxt = document.getElementById("custom-text");
+console.log('In button js file');
 
 customBtn.addEventListener("click",function(){
   realFileBtn.click();
