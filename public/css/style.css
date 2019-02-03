@@ -1,7 +1,7 @@
 #custom-button {
   padding 10px;
   color: white;
-  background-color: #009578;
+  background-color: #005c99;
   border: 1px solid #000;
   border-radius: 5px;
   cursor: pointer;
@@ -11,7 +11,7 @@
   font-family: arial black;
 }
 #custom-button:hover{
-  background-color: #00b28f;
+  background-color: #9999ff;
 }
 #custom-text {
   margin-left: 5px;
@@ -34,4 +34,4 @@
   text-align: right;
   margin-right: 20px;
 }
-body {background-color:#D3D3D3;}
+body {background-color:	#99d6ff;}
