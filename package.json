@@ -14,11 +14,12 @@
   "license": "ISC",
   "dependencies": {
     "body-parser": "*",
-    "express": "*",
     "connect-flash": "*",
     "cookie-parser": "^1.4.1",
+    "express": "*",
     "express-handlebars": "*",
-    "express-session": "*"
+    "express-session": "*",
+    "firebase": "^5.8.2"
   },
   "bugs": {
     "url": "https://github.com/hermannkrohn3/QuickCast/issues"

@@ -5,6 +5,7 @@ var bodyParser = require('body-parser');
 var exphbs = require('express-handlebars');
 var session = require('express-session');
 var flash = require('connect-flash');
+var firebase = require("firebase");
 
 var routes = require('./routes/index');
 var users = require('./routes/users');
