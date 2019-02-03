@@ -13,13 +13,17 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "axios": "^0.16.2",
     "body-parser": "*",
     "connect-flash": "*",
     "cookie-parser": "^1.4.1",
     "express": "*",
     "express-handlebars": "*",
     "express-session": "*",
-    "firebase": "^5.8.2"
+    "express-validator": "^5.3.1",
+    "firebase": "^5.8.2",
+    "passport": "*",
+    "passport-local": "*"
   },
   "bugs": {
     "url": "https://github.com/hermannkrohn3/QuickCast/issues"
