@@ -5,6 +5,10 @@
   border: 1px solid #000;
   border-radius: 5px;
   cursor: pointer;
+  width: 180px;
+  height: 80px;
+  font-size: 180%;
+  font-family: arial black;
 }
 #custom-button:hover{
   background-color: #00b28f;
@@ -14,7 +18,19 @@
   font-family: sans-serif;
   color: #aaa;
   border: 1px solid #000;
+
+
 }
 .uploadfeed {
   text-align:center;
+  height: 1000px;
+  border: 1px solid #000;
+  margin-right: 20px;
+  margin-left: 20px;
+  margin-bottom: 10px;
 }
+.uploadbutton {
+  text-align: right;
+  margin-right: 20px;
+}
+body {background-color:#D3D3D3;}
