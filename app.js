@@ -12,6 +12,18 @@ var users = require('./routes/users');
 
 var app = express();
 
+// Initialize Firebase -- hidden keys
+ var config = {
+   apiKey: "AIzaSyB1SDVviGxe7n6fliX7apTmfh9hVzwo6B8",
+   authDomain: "quickcast-db.firebaseapp.com",
+   databaseURL: "https://quickcast-db.firebaseio.com",
+   projectId: "quickcast-db",
+   storageBucket: "quickcast-db.appspot.com",
+   messagingSenderId: "326042028178"
+ };
+ firebase.initializeApp(config);
+
+
 //View Engine
 app.set('views', path.join(__dirname, 'views'));
 app.engine('handlebars', exphbs({defaultLayout:'layout'}));
